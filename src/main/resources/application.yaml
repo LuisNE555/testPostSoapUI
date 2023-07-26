@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://127.0.0.1:1433;encrypt=true;trustServerCertificate=true;database=testSoapUI;
+    username: testDB
+    password: encriptado_2023
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  server:
+    port: 8080
